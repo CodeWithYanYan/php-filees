@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      padding: 20px;
+      border: 1px solid black;
+      row-gap: 5px;
+    }
+    h1 {
+      margin-top: 0;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <form action="display.php" method="post">
+    <div class="container">
+      <h1>Welcome</h1>
+
+      <label for="username">Username</label>
+      <input type="text" name="username">
+  
+      <label for="password">Password</label>
+      <input type="text" name="password">
+  
+      <input type="submit" value="login">
+    </div>
+   
+  </form>
+</body>
+</html>
